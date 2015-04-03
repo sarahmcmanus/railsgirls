@@ -38,4 +38,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # This defines default url options, to make sure Devise works for user authentication
+  # I am using port 3001 at the moment, but the tutorial uses port 3000
+  config.action_mailer.default_url_options = { :host => 'localhost:3001' }
 end
