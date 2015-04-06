@@ -47,6 +47,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Adding user authentication with Devise
 gem 'devise'
 
+# Adding user profile pictures with Gravatar
+gem 'gravtastic'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
